@@ -492,7 +492,8 @@ background:url(../apply-3.jpg) no-repeat center;
 
   .section1 .rightside{
     order: 1;
-    margin-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
     width: 200%;
     height: 300px;
   }
@@ -519,8 +520,12 @@ background:url(../apply-3.jpg) no-repeat center;
 
   #Guruji-insta{
     position: absolute;
-    top: -510px;
-    right: -350px;
+    top: -540px;
+    right: -380px;
+  }
+
+  .margin-left-20px{
+    margin-left: 20px !important;
   }
 
   .section2{
@@ -595,7 +600,7 @@ background:url(../apply-3.jpg) no-repeat center;
     border-radius: 22px;
     background-image: url("../img/Ourtech.png");
     background-size: 120%;
-    background-position: 0px 0px;
+    background-position: 0px -60px;
     background-repeat: no-repeat;
   }
   
