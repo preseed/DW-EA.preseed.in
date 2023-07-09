@@ -616,3 +616,74 @@ background:url(../apply-3.jpg) no-repeat center;
     background-repeat: no-repeat;
   }
 }
+
+.details > summary::after {
+  position: ;
+  top: 18px;
+  left: 8px;
+  content: "▼";
+}
+.details > .iconbtn::after {
+  position: ;
+  content: "▼";
+  top: 18px;
+  left: 8px;
+  /*top: 15px;*/
+}
+.details[open] > summary::after {
+  
+  content: "▲";
+  width: 5px;
+  height: auto;
+}
+.details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.content-impo1 ul {
+  padding: 10px;
+
+}
+
+.content-impo1 ul li a {
+  font-size: 1.2rem;
+  color: rgba(255, 191, 29, 255);
+  padding: 7px;
+  text-decoration: none;
+  padding-left: 30px;
+}
+
+.content-impo1 ul li {
+  font-size: 1.5rem;
+  list-style: none;
+}
+
+.content-impo1 ul li a:hover {
+  color: red;
+}
+
+.content-impo1 {
+  align-items: left;
+  text-align: left;
+}
+
+.content-impo .blissfull {
+  width: 100%;
+  left: 30%;
+}
+
+.faq__content {
+  background-color: rgba(255, 255, 255, 0.986);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0.5px 0.5px 0.5px 1px rgb(216, 216, 216);
+  margin-bottom: 10px;
+  width: 100%;
+
+}
+
+@media only screen and (max-width: 360px;){
+  .faq__content h4{
+    font-size: 5px;
+  }
+}
