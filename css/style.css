@@ -235,7 +235,7 @@ background:url(../apply-3.jpg) no-repeat center;
 
 .preseedea-logo{
   margin-top: 190px;
-  width: 300px;
+  width: 400px;
   margin: 0 auto 0 auto;
 }
 
@@ -356,6 +356,11 @@ background:url(../apply-3.jpg) no-repeat center;
   background-repeat: no-repeat;
 }
 
+.background-sect-5 img{
+  width: 400px;
+  height: auto;
+}
+
 .background-sect-6{
   max-width: 50vw;
   max-height:50vw;
@@ -366,6 +371,15 @@ background:url(../apply-3.jpg) no-repeat center;
   background-size: 110%;
   background-position: -15px 0px;
   background-repeat: no-repeat;
+}
+
+.background-sect-6 img{
+  width: 400px;
+  height: auto;
+}
+
+.border-img{
+  border-radius: 20px;
 }
 
 .button-link{
@@ -487,6 +501,7 @@ background:url(../apply-3.jpg) no-repeat center;
     width: 200%;
     margin-top: 150px;
     gap: 60px;
+    height: auto;
   }
   
   html{
@@ -495,20 +510,29 @@ background:url(../apply-3.jpg) no-repeat center;
 
   .section1 .rightside{
     order: 1;
-    margin-left: auto;
+    margin-left: 1px;
     margin-right: auto;
     width: 200%;
     height: 300px;
   }
 
+  .section1 .rightside video{
+    width: 200px;
+    height: auto;
+  }
+
   .section1 .leftside{
     order: 2;
     margin-left: -40px;
+    margin-top: 80px;
+    font-size: 12px;
   }
 
   .section1 .leftside p{
     width: 250%;
     margin-left: 20px;
+    line-height: 1.5;
+    font-size: 14px;
   }
 
   .section1 .leftside h1{
@@ -611,6 +635,19 @@ background:url(../apply-3.jpg) no-repeat center;
     background-position: -15px 0px;
     background-repeat: no-repeat;
   }
+
+  summary.detailed-button{
+    width: 280px;
+  }
+
+  .faq__content h2{
+    font-size: 18px;
+  }
+
+}
+
+.faq__content{
+  text-align: justify;
 }
 
 .details > summary::after {
@@ -618,6 +655,7 @@ background:url(../apply-3.jpg) no-repeat center;
   top: 18px;
   left: 8px;
   content: "▼";
+  color: black;
 }
 .details > .iconbtn::after {
   position: ;
@@ -678,17 +716,14 @@ background:url(../apply-3.jpg) no-repeat center;
   margin-top: 20px;
 }
 
-@media only screen and (max-width: 360px;){
+@media only screen and (max-width: 400px){
   .faq__content h4{
     font-size: 5px;
-  }
-  .detailed-button{
-    
   }
 }
 
 .detailed-button{
-  width: 340px;
+  width: 500px;
   height: auto;
   padding: 5px;
   background-color: white;
@@ -696,3 +731,25 @@ background:url(../apply-3.jpg) no-repeat center;
   border-radius: 20px;
 }
 
+details > summary::after {
+
+  content: "▼";
+  color: black;
+}
+details > .iconbtn::after {
+  content: "▼";
+  /*top: 15px;*/
+}
+details[open] > summary::after {
+  content: "▲";
+  width: 5px;
+  height: auto;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.img{
+  width: calc(20% + 50px);
+  height: auto;
+}
