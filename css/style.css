@@ -103,7 +103,7 @@ background:url(../apply-3.jpg) no-repeat center;
 
 .navbar-brand,
 .navbar-toggle {
-  padding: 10px;
+  padding: 20px;
   margin: 0;
   font-size: 16px;
   color: #fff;
@@ -685,6 +685,10 @@ background:url(../apply-3.jpg) no-repeat center;
     font-size: 18px;
   }
 
+  .col-md-8 {
+    text-align: center !important;
+  }
+
 }
 
 .faq__content{
@@ -793,4 +797,13 @@ details > summary::-webkit-details-marker {
 .img{
   width: calc(20% + 50px);
   height: auto;
+}
+
+.yoga_quote{
+  margin: 10px;
+  padding: 10px;
+}
+
+.col-md-8 span{
+  color: #ff005a; font-size: 1.2em;text-align: left;
 }
