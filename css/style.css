@@ -524,11 +524,17 @@ background:url(../apply-3.jpg) no-repeat center;
     margin-right: auto;
     width: 200%;
     height: 300px;
+    margin-bottom: 110px;
+  }
+
+  .section1 .rightside p{
+    margin-left: 30px;
   }
 
   .section1 .rightside video{
-    width: 200px;
+    width: 290px;
     height: auto;
+    margin: 0 auto 0 -30px;
   }
 
   .section1 .leftside{
