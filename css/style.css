@@ -807,3 +807,8 @@ details > summary::-webkit-details-marker {
 .col-md-8 span{
   color: #ff005a; font-size: 1.2em;text-align: left;
 }
+
+.text-margin{
+  margin: 0 30px 0 30px;
+  text-align: justify;
+}
