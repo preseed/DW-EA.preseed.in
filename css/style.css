@@ -714,8 +714,9 @@ background:url(../apply-3.jpg) no-repeat center;
     left: 58px;
   }
 
-  
-
+  .aldoro{
+    font-size: 20px;
+  }
 }
 
 .faq__content{
@@ -849,4 +850,8 @@ details > summary::-webkit-details-marker {
   margin: 40px auto 0 auto;
   text-align: center;
   max-width: 296px;
+}
+
+.sm-links{
+  margin-right: 80px;
 }
