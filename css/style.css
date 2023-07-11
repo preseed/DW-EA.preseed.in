@@ -500,6 +500,11 @@ background:url(../apply-3.jpg) no-repeat center;
   }
 }
 
+img.lotus{
+  width: 100px;
+  height: auto;
+}
+
 @media screen and (max-width: 400px){
 
   html, body{
@@ -534,7 +539,7 @@ background:url(../apply-3.jpg) no-repeat center;
   .section1 .rightside video{
     width: 290px;
     height: auto;
-    margin: 0 auto 0 -30px;
+    margin: 0 auto 0 -40px;
   }
 
   .section1 .leftside{
