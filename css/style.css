@@ -267,11 +267,8 @@ background:url(../apply-3.jpg) no-repeat center;
 }
 
 .section1 .rightside a{
-  position: absolute;
-  font-size: 25px;
-  bottom: -60px;
-  right: 500px;
   color: white;
+  text-decoration: none;
 }
 
 .section1 .rightside a:hover{
@@ -552,7 +549,7 @@ background:url(../apply-3.jpg) no-repeat center;
   .section1 .leftside{
     order: 2;
     margin-left: -40px;
-    margin-top: 80px;
+    margin-top: 110px;
     font-size: 12px;
   }
 
