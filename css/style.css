@@ -849,4 +849,10 @@ details > summary::-webkit-details-marker {
   max-width: 296px;
 }
 
-
+.have_someone_in_mind{
+  max-width: 1000px;
+  min-width: 300px;
+  margin: 20px;
+  color: white;
+  text-align: center;
+}
