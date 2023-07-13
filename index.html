@@ -497,24 +497,32 @@ Our technology is designed to be intuitive and user-friendly, making it easy for
     </center>
     <script>
         window.addEventListener('DOMContentLoaded', (event) => {
-      const links = document.querySelectorAll('div a');
-
-      for (const link of links) {
-        link.addEventListener('click', clickHandler);
-      }
-
-      function clickHandler(e) {
-        e.preventDefault();
-        const href = this.getAttribute('href');
-        const offsetTop = document.querySelector(href).offsetTop;
-
-        scroll({
-          top: offsetTop,
-          behavior: 'smooth'
+          const links = document.querySelectorAll('div a');
+        
+          for (const link of links) {
+            link.addEventListener('click', clickHandler);
+          }
+        
+          function clickHandler(e) {
+            const href = this.getAttribute('href');
+        
+            // Check if href starts with '#' (an internal link)
+            if (href.startsWith('#')) {
+              e.preventDefault();
+        
+              const offsetTop = document.querySelector(href).offsetTop;
+        
+              scroll({
+                top: offsetTop,
+                behavior: 'smooth'
+              });
+            }
+        
+            // If not an internal link, allow the default action
+          }
         });
-      }
-    });
-    </script>
+        </script>
+        
     
     
 	  
